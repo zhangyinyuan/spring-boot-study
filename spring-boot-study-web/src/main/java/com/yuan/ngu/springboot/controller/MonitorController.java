@@ -1,7 +1,8 @@
-package com.yuan.ngu.springbootstudyweb.controller;
+package com.yuan.ngu.springboot.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MonitorController {
 
 
-    @RequestMapping(path = "/monitor")
+    @RequestMapping(path = "/monitor",method = RequestMethod.GET)
     @ResponseBody
     public Object monitor() {
         JSONObject jsonObject = new JSONObject();

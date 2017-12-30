@@ -1,4 +1,4 @@
-package com.yuan.ngu.springbootstudyweb;
+package com.yuan.ngu.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

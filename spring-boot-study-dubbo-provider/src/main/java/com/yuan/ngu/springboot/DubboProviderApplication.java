@@ -1,12 +1,12 @@
-package com.yuan.ngu.springbootstudydubboprovider;
+package com.yuan.ngu.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootStudyDubboProviderApplication {
+public class DubboProviderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootStudyDubboProviderApplication.class, args);
+		SpringApplication.run(DubboProviderApplication.class, args);
 	}
 }
