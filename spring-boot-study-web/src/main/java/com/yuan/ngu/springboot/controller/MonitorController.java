@@ -1,4 +1,4 @@
-package com.yuan.ngu.springbootstudyweb.controller;
+package com.yuan.ngu.springboot.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.web.bind.annotation.RequestMapping;
