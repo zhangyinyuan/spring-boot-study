@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="326bc423-eaaf-4998-921f-1bbfe69b927c" name="Default" comment="加入produce">
+    <list default="true" id="326bc423-eaaf-4998-921f-1bbfe69b927c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/RedisService.java" afterPath="$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/RedisService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/service/RedisServiceImpl.java" afterPath="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/service/RedisServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/RedisController.java" afterPath="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/RedisController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-study-web/target/" />
@@ -20,8 +22,8 @@
       <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/RedisController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="21" column="77" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="77" />
+            <state relative-caret-position="198">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -44,14 +46,16 @@
       <find>PropertyAccessor</find>
       <find>ju</find>
       <find>redis-timeout</find>
-      <find>opsForValue</find>
       <find>com.yuan.ngu.springbootstudyapi.RedisService</find>
-      <find>stringRedisTemplate</find>
       <find>spring-boot-starter-parent</find>
       <find>spring-boot-maven-plugin</find>
       <find>22181</find>
       <find>application/json</find>
       <find>APPLICATION_JSON_UTF8</find>
+      <find>opsForValue</find>
+      <find>valOpsStr</find>
+      <find>stringRedisTemplate</find>
+      <find>redisTemplate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,17 +89,18 @@
         <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springbootstudydubboprovider/service/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
-        <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/service/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/ProxyService.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/service/ProxyServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/study/web/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/MonitorController.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/Swagger2Config.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/http/MediaType.class" />
+        <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/RedisService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/service/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/RedisController.java" />
       </list>
     </option>
@@ -163,6 +168,59 @@
             <path>
               <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-study-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-study-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,14 +262,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-sudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-sudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-study-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514638110656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入 produces">
+      <created>1514641740231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514641740231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17655000" />
+    <option name="totallyTimeSpent" value="20252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -403,10 +460,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07970112" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31008717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34744707" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2403487" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33315334" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33315334" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -415,7 +472,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6276463" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50809467" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -487,28 +544,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="集成 dubbo" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成 dubbo" />
+    <MESSAGE value="加入 produces" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入 produces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/RedisService.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/service/ProxyServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/controller/RedisController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/service/RedisServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/DubboProviderApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/study/dubbo/provider/ProxyService.java" />
     <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -745,50 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-study-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/MonitorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/Swagger2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -817,10 +822,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="912" column="18" lean-forward="false" selection-start-line="912" selection-start-column="18" selection-end-line="912" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_51/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-study-api/src/main/java/com/yuan/ngu/springboot/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/src/main/java/com/yuan/ngu/springboot/service/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/MonitorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-study-web/src/main/java/com/yuan/ngu/springboot/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="77" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="77" />
+        <state relative-caret-position="198">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>

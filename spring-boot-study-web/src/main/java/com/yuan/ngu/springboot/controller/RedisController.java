@@ -11,18 +11,18 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/redis")
-@Api(value = "Redis测试接口",description = "仅仅用来测试，没有其他用途")
+@Api(value = "Redis测试接口", description = "仅仅用来测试，没有其他用途")
 public class RedisController {
 
     @Reference(version = "1.0.0")
     RedisService redisService;
 
     @ApiOperation(value = "获取Redis", notes = "用来测试Redis")
-    @ApiImplicitParam(paramType = "path",name = "key", defaultValue = "dashabi",value = "Redis 的 key", required = true,dataType = "string")
-    @RequestMapping(value = "/get/{key}", method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @ApiImplicitParam(paramType = "path", name = "key", defaultValue = "dashabi", value = "Redis 的 key", required = true, dataType = "string")
+    @RequestMapping(value = "/get/{key}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ResponseBody
     public Object get(@PathVariable String key) {
-        String redisValue = (String) redisService.opsForValue(key);
+        String redisValue = redisService.getStr(key);
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("value", redisValue);
         jsonObject.put("key", key);

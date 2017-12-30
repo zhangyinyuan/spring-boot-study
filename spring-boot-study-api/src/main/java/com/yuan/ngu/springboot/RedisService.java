@@ -41,6 +41,4 @@ public interface RedisService {
      * @param o
      */
      void delObj(Object o);
-
-    Object opsForValue(String key);
 }
