@@ -10,10 +10,5 @@
 
 
     <dependencies>
-        <dependency>
-            <groupId>com.yuan.ngu</groupId>
-            <artifactId>spring-boot-study-api</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 </project>
