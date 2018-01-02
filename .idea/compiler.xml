@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="sessionTest" target="1.7" />
       <module name="spring-boot-study-api" target="1.5" />
       <module name="spring-boot-study-dubbo-provider" target="1.7" />
       <module name="spring-boot-study-web" target="1.7" />
