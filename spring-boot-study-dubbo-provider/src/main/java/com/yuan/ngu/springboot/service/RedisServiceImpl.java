@@ -79,7 +79,4 @@ public class RedisServiceImpl implements RedisService {
         redisTemplate.delete(o);
     }
 
-    public Object opsForValue(String key){
-        return stringRedisTemplate.opsForValue().get(key);
-    }
 }
