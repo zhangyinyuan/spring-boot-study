@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-study.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study-api/spring-boot-study-api.iml" filepath="$PROJECT_DIR$/spring-boot-study-api/spring-boot-study-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study-dubbo-provider/spring-boot-study-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-boot-study-dubbo-provider/spring-boot-study-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-study-web/spring-boot-study-web.iml" filepath="$PROJECT_DIR$/spring-boot-study-web/spring-boot-study-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-sudy.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-sudy.iml" />
     </modules>
   </component>
 </project>
